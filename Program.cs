@@ -7,9 +7,10 @@ namespace HM1
         static void Main(string[] args)
         {
             string str;
-            int sizeStr, maxCount, count;
-            maxCount = 0;
-
+            int sizeStr;
+            int maxCount = 0;
+            int count;
+            
             Console.WriteLine("Enter the word: ");
             str = Console.ReadLine();
             
